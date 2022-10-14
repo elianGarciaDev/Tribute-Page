@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  background-color: #333;
+  background-image: url("fondonegro.jpg");
+  background-size: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+#title {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 52px;
+  font-size: 80px;
+  font-family: "Righteous", cursive;
+  margin-bottom: 50px;
+}
+
+#h3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-size: 22px;
+  color: #c90;
+  top: 5px;
+}
+
+#img-div {
+  background-color: #000;
+  display: block;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  margin: 15.18px 27px;
+  padding: 15.18px 18px 15.18px 18px;
+}
+
+#image {
+  display: inherit;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
+
+#img-caption {
+  display: inherit;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  padding: 10px 0 0 0;
+}
+
+#h2 {
+  text-align: center;
+}
+
+#tribute-info {
+  color: #fff;
+  margin: 0 22%;
+}
+
+#goldshoe {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 62rem;
+  left: 1%;
+}
+
+#goldshoe1 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldshoe2 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldshoe3 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldshoe4 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldshoe5 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldshoe6 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldball {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  opacity: 90%;
+  left: 84%;
+}
+
+#goldball1 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldball2 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldball3 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldball4 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldball5 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldball6 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#goldball7 {
+  margin: 0 0 250px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+strong {
+  color: #c90;
+}
+
+#tribute-link:hover {
+  color: #ff0;
+  font-size: 17px;
+}
+
+#tribute-link {
+  color: #fff;
+}
+
+h4 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+@media (max-width: 768px) {
+  #goldball {
+    width: 0;
+    height: 0;
+  }
+
+  #goldshoe {
+    width: 0;
+    height: 0;
+  }
+
+  #title {
+    font-size: 3rem;
+  }
+
+  #h3 {
+    font-size: 1.2em;
+  }
+
+  #img-caption {
+    font-size: 1em;
+  }
+
+  #h2 {
+    font-size: 1.3rem;
+    top: 30px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+}
